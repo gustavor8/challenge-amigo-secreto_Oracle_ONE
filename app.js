@@ -41,7 +41,7 @@ function sortearAmigo() {
     
        // Exibe o resultado
       const resultado = document.getElementById('resultado');
-      resultado.innerHTML = ''; // Limpa o conteúdo anterior
+      resultado.textContent = ''; // Limpa o conteúdo anterior
 
       // Cria um novo elemento <li> para exibir o resultado
       const listItem = document.createElement('li');
